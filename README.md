@@ -1,7 +1,7 @@
-# nuxt-app
+# vue-nuxt
 
 > Nuxt.js project
-接口请求使用axios标配
+> 服务端渲染框架，接口请求使用axios标配
 
 ## Build Setup
 
