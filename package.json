@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-app",
+  "version": "1.0.0",
+  "description": "My first-class Nuxt.js project",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "PORT=2100 nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.4.6",
+    "express": "^4.16.3",
+    "nuxt": "^2.0.0",
+    "qs": "^6.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0"
+  }
+}
